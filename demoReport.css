@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("/img/bggg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+
+#playPauseButton {
+    width: 80px;
+    height: 50px;
+    font-size: 2em;
+    position: relative;
+}
+
+
+#container__info {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.infoIntro {
+    text-align: center;
+    font-size: 25px;
+    animation: opacity 5s linear 1;
+}
+
+#decripttion{
+    font-weight: 900;
+    color: white;
+    font-size: 30px !important;
+}
+
+@keyframes opacity {
+    0% {
+        opacity:0
+    }
+    100% {
+        opacity:1
+    }
+}
+p {
+    color: #f7d51a;
+
+}
+
+p>span {
+    color: white;
+}
+
+#container-canvas {
+    width: 500px;
+}
+
+#numMain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    font-weight: bold;
+    display: none;
+    animation: opacity 5s linear 1;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+}
+
+/* #progressCanvas{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450;
+    height: 450;
+    image-rendering:  crisp-edges;
+} */
+
+#border__bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    background-image: url('/img/borderimg.png');
+    background-size: contain;
+    transform: translate(-50%, -50%);
+}
+
+#border__bg:before {
+    background-image: url('/img/mandala-bg.webp');
+    background-size: contain;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+}
+
+#backgroungCanvas {
+    background-image: url('/img/sign-mandala-bg.png');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+    transform: translate(-50%, -50%);
+    animation: rotating 50s linear infinite;
+    transform-origin: center center;
+}
+
+#container__info:before {
+    background-image: url('/img/mandala-lines-8.webp');
+    background-size: contain;
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+    animation: spin-transformed 25s linear infinite;
+    opacity: 0.5;
+}
+
+#container__info:after {
+    background-image: url('/img/mandala-shape-8.webp');
+    background-size: contain;
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+    animation: spin-transformed 50s linear infinite;
+    opacity: 0.5;
+}
+
+@keyframes rotating {
+    0% {
+        transform: translate(-50%, -50%) rotate(0);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+@keyframes spin-transformed {
+    0% {
+      -webkit-transform: translate(-50%, -50%) rotateY(180deg) rotateX(180deg);
+      -ms-transform: translate(-50%, -50%) rotateY(180deg) rotateX(180deg);
+      transform: translate(-50%, -50%) rotateY(180deg) rotateX(180deg);
+    }
+    50% {
+      -webkit-transform: translate(-50%, -50%) rotateY(0deg) rotateX(0deg);
+      -ms-transform: translate(-50%, -50%) rotateY(0deg) rotateX(0deg);
+      transform: translate(-50%, -50%) rotateY(0deg) rotateX(0deg);
+    }
+    100% {
+      -webkit-transform: translate(-50%, -50%) rotateY(-180deg) rotateX(-180deg);
+      -ms-transform: translate(-50%, -50%) rotateY(-180deg) rotateX(-180deg);
+      transform: translate(-50%, -50%) rotateY(-180deg) rotateX(-180deg);
+    }
+  }
+  

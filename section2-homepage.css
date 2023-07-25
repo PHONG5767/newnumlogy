@@ -1,0 +1,183 @@
+#section2{
+    /* background-image: url('./img/home_bg_2.webp'); */
+    min-height: 500px;
+    padding-bottom: 300px;
+}
+#section2--section1 {
+    box-shadow: 0 0 36px #af3589;
+    padding: 50px 0;
+    background-image: url('./img/bag_img_1.webp');
+    background-size: cover;
+    border: 8px solid #fff;
+    margin-top: -270px;
+    z-index: 10;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#section2--section1 > p {
+    width: 50%;
+    margin-top: 0px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+#section2--section1 > h2 {
+    font-size: 40px;
+}
+
+.btn--pd40 {
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #212544 !important;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.btn--pd40:hover {
+    background-color: #af3589 !important;
+}
+
+#section2__circle {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    padding-top: 100px; 
+    min-height: 500px;
+}
+
+
+#section2__circle--picked{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+#clock--circle {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+#container--circle {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+   
+}
+.numHour {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+    transform-origin: 100% 100%;
+    cursor: pointer;
+
+}
+#centerCicle--circle {
+    position: absolute;
+    color: #507ca5;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #081f35;
+    z-index: 1;
+    cursor: pointer;
+}
+.textNum{
+    display: block;
+    width: 200%;
+    height: 200%;
+    transform: skew(-56deg) rotate(-73deg);
+    text-align: center;
+    background-image: url(https://numerologist.com/wp-content/uploads/2020/11/001.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    color: #507ca5;
+    font-size: 30px;
+    line-height: 150px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.textNum:hover {
+    color: white;
+    background-image:url('https://numerologist.com/wp-content/uploads/2020/11/002.png')!important;
+}
+#centerCicle--circle:hover{
+    color: white;
+    background-image:url('https://numerologist.com/wp-content/uploads/2020/11/reading-img-22.jpg') !important;
+}
+
+
+#section2__circle--content {
+    padding-left: 30px;
+}
+
+#section2__circle--content >h2{
+    font-size: 40px;
+    color: #051729;
+    /* line-height: 36px; */
+    text-align: left;
+    font-weight: 900;
+}
+#section2__circle--content > a {
+    text-decoration: none;
+    color: #af3589;
+    font-size: 25px;
+    font-weight: bold;
+}
+#section2__circle--decription > p {
+color: #444b50;
+font-size: 20px;
+line-height: 35px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #section2__circle {
+        flex-direction: column;
+        align-items: center;
+    }
+    #container--circle{
+        width: 300px !important;
+        height: 300px !important;
+    }
+    .textNum {
+        font-size: 20px !important;
+    }
+    #centerCicle--circle {
+        font-size: 30px !important;
+    }
+    #section2__circle--content {
+        width: 100% !important;
+    }
+}
+
+

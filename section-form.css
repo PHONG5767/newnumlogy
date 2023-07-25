@@ -1,0 +1,123 @@
+#section3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: url('./img/home_bg_4.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 50px 0;
+}
+
+#section3__container {
+    width: 80%;
+    box-sizing: border-box;
+    background-size: cover;
+    border: 8px solid #fff;
+    border-radius: 0;
+    box-shadow: 0 0 36px #af3589;
+    padding: 55px 18% 40px;
+    margin-top: -200px!important;
+    z-index: 10;
+    position: relative;
+    background-image: url('./img/bag_img_4.webp');
+}
+
+.section3__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.section3__form > p {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600
+}
+
+#form {
+    width: 100%;
+}
+
+.css-form {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 100%;
+}
+.btn--form {
+    padding: 15px 50px 15px 50px;
+    width: 100%;
+}
+
+.css-form > label {
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.input__form {
+    height: 40px;
+    padding-left: 30px;
+}
+#accordion__content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.accordion__content--decription {
+    background-color: white;
+    color: black;
+    margin-bottom: 0px;
+}
+.section3__accordion {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accordion__content--title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn--bordercircle5{
+    padding: 5px 20px 5px 20px;
+    width: 100%;
+    border-radius:0px;
+    border-bottom: 1px solid black;
+}
+
+.btn--bordercircle5:nth-child(1) {
+    margin-top: 0 !important;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.btn--bordercircle5:nth-child(11) {
+    border-radius: 0px 0px 10px 10px !important;
+}
+
+.accordion__content--decription {
+    z-index: 0;
+    padding: 10px 10px 10px 30px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(88, 79, 79);
+}
+.section3__accordion > h2 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}

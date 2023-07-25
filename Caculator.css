@@ -1,0 +1,92 @@
+@page {
+    size: A4;
+    margin-top: 50px;
+  }
+  
+p {
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+span {
+    font-size: 25px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+}
+.imgName {
+    vertical-align: middle;
+}
+#Expression__number {
+    display: flex;
+}
+#HeartDesireNumber__leader {
+    display: flex;
+    align-items: center;
+}
+.img-name {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#page-container {
+    width: 210mm;
+  }
+
+  #content-page {
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  #cover__img {
+    display: flex;
+    position: relative;
+    width: 210mm;
+    height: 297mm;
+    justify-content: center ;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  #cover__img > img {
+    width: 197.3mm;
+    height: 271.6mm;
+    display: inline-block;
+  }
+
+  #cover__img-name{
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    transform: translate(-50%, -50%);
+  
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    z-index: 999    ;
+  }
+  #cover__img-name > p {
+    font-size: 30px;
+    font-weight: 700;
+    color: white !important;
+  }
+
+  #cover__img-numMain{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+    font-weight: 900;
+  }
+  
+
