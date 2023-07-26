@@ -7,7 +7,7 @@
     background-image: url('./img/home_bg_4.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 150px 0;
 }
 
 #section3__container {
@@ -35,13 +35,18 @@
 h2 {
     font-size: 50px;
     text-align: center;
+    color: white;
+    margin-block-start: 0px;
+    margin-block-end: 20px;
 }
 
 .section3__form > p {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     margin-bottom: 30px;
-    font-weight: 600
+    color: white;
+    margin-block-start: 0px;
+    margin-block-end: 50px;
 }
 
 #form {
@@ -78,6 +83,8 @@ h2 {
     background-color: white;
     color: black;
     margin-bottom: 0px;
+    line-height: 1.5em;
+
 }
 .section3__accordion {
     width: 50%;
@@ -112,12 +119,13 @@ h2 {
 .accordion__content--decription {
     z-index: 0;
     padding: 10px 10px 10px 30px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     color: rgb(88, 79, 79);
 }
 .section3__accordion > h2 {
     color: white;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 30px;
 }

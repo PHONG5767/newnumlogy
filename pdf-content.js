@@ -102,7 +102,7 @@ function SubconsciousSelfNumberpdf(lowercaseCharacters) {
   const uniqueValues = Array.from(
     new Set(lowercaseCharacters.map((char) => values[char]))
   );
-  
+
   const checklist = [];
   for (let i = 1; i <= 9; i++) {
     const checkValue = uniqueValues.includes(i) ? "Yes" : "No";
@@ -218,6 +218,152 @@ const buildPdfContent = async () => {
     },
 
     {
+      toc: {
+        title: { text: "Table of contents", style: "header" },
+      },
+    },
+
+    {
+      text: "About Numerology",
+      style: "header",
+      pageBreak: "before",
+      tocItem: true,
+    },
+
+    {
+      text: `From the time when human beings developed speech, we realized that words are symbols for things; actions, people, things, places, the passage of time and even more. Eventually, ways to compact these words so that they could be recorded became writing, a secondary set of symbols. As our need to pass information became more complex, we developed symbols for complete ideas and concepts centered on certain principles, and grouped similar concepts into categories, from which we find symbolic systems of codifying the universe such as Astrology, Yijing (I-Ching) and others. Numerology is even more useful than these other methods of codifying information about the world, because it uses everyday numbers in various combinations to explain these categories and the many subtleties of their interaction.`,
+      style: "small",
+    },
+
+    {
+      text: ` `,
+      style: "small",
+    },
+
+    {
+      text: `Systems of using symbols for information were also used for divination - just as a letter can describe important events far away or hidden from view, the Chinese Fate Calculators or Astrologers used their proprietary symbols to reveal things that could not be otherwise known. If they were wrong more than they were right, those crafts of divination would not exist today, they would have long since been exorcised from the collective toolbox of those who seek knowledge.`,
+      style: "small",
+    },
+
+    {
+      text: ` `,
+      style: "small",
+    },
+
+    {
+      text: `Actually, the use of numbers as symbols of ideas, things, events and words goes back to the time before numerals, as we know them today, were invented. Some people used letters of the alphabet to act as numbers; the Arabic Numerals, which actually originated in India, only came into widespread use in the west during the early years of the 13th century. They were used as counting devices by the common people, but knowledgeseekers struggled to be initiated into the mystery schools where secret teachings about numbers was taught, explored and codified. `,
+      style: "small",
+    },
+
+    {
+      text: ` `,
+      style: "small",
+    },
+    {
+      text: `The ancient Chaldeans, famous for their skills in astrology, are believed to have created an early system of Numerology. Their philosophy stated that all things are composed of energy at varying states of vibration, and modern science is finally beginning to agree with them. They, of course, found a way to group everything according to their common essential properties. These basic qualities are underlying principles that extend into mind, matter and action, and exist wherever consciousness exists. Eventually these qualities were codified by numbers, and from that time numbers became more than ciphers for counting - they became abstract principles through which one versed in the art could explore order in the universe and in daily affairs. `,
+      style: "small",
+    },
+    {
+      text: ` `,
+      style: "small",
+    },
+    {
+      text: `The term Numerology was coined by Dr. Julia Seton, and first seen in a book published around 1937. Before then, this type of divination was referred to as the Science of Numbers or Arithmancy. `,
+      style: "small",
+    },
+    {
+      text: ` `,
+      style: "small",
+    },
+    {
+      text: `There are schools of Numerology that have their origin in ancient Taoist cosmologies which follow the theory of Yin and Yang and the Five Elements. The more modern and very popular system of Chinese Astrology, known as the Four Pillars, is really a numerological method based on the calendar, rather than the movements of the stars. `,
+      style: "small",
+    },
+
+    {
+      text: ` `,
+      style: "small",
+    },
+    {
+      text: `In India, many methods of astrological divination are based on numerological techniques such as harmonics and magic squares. Some of them use orders and sequences of planets in the Zodiac signs, or cycles of time unrelated to astronomical positions. Systems like those rely on principles and ideas based on observation and experience, rather than measurement, and although they are based on the symbolic value of number, rather than the observation or the sky, their results can be stunningly accurate. `,
+      style: "small",
+    },
+
+    {
+      text: ` `,
+      style: "small",
+    },
+    {
+      text: `In most schools of Numerology, there are different aspects to working with the numbers. Arithmancy is the set of techniques used for manipulating the numbers and extracting the meaning from their various relationships. Arithmancy gives us the ability to find the definitions we need and the information we seek. `,
+      style: "small",
+    },
+
+    {
+      text: `Another way of working with Numbers is called Isopsephy in Greek, or Gematria in Aramaic and Hebrew. This is the technique of assigning the letters of an alphabet, or (sometimes) the phonemes of a language to numbers. These methods help a practitioner to convert names and words into numeric symbols `,
+      style: "small",
+    },
+    {
+      text: ` `,
+      style: "small",
+    },
+
+    {
+      text: `In short, there are many systems and methods of Numerology which, in the hands of a well-rounded and conscientious practitioner, can be almost miraculous in its insights. But what's important, especially in this information-saturated age, is what it can do for you. `,
+      style: "small",
+    },
+    {
+      text: ` `,
+      style: "small",
+    },
+
+    {
+      text: `Numerology is a profound and reliable way to study your experience in the world. From this study one can uncover secrets that lead to self-knowledge, and understand underlying cycles and patterns that may have been invisible before. These patterns never stop changing, but by knowing what these changes are likely to bring, it offers you the chance to align yourself with the currents in nature, so that you can sail with the wind, rather than against it. It can also give you a pretty good idea of what makes people tick, and provide an excellent road map with which you can navigate the currents of daily life. `,
+      style: "small",
+    },
+    {
+      text: ` `,
+      style: "small",
+    },
+
+    {
+      text: `Numerology offers you the opportunity to skillfully emphasize your strengths and overcome your weaknesses, and it can help you learn more every day about how to seize opportunities that you may never have noticed before. By doing so, you'll cultivate an inner and almost automatic sense of "doing the right thing" while acting in your best interests at the same time. By putting a little time and effort into the study of this fascinating subject, you're likely to find ways to make all aspects of your life run more smoothly, making it easier to create the life you want and the future you deserve.`,
+      style: "small",
+    },
+    {
+      text: ` `,
+      style: "small",
+    },
+
+    {
+      text: "Connecting The Dots",
+      style: "header",
+      pageBreak: "before",
+      tocItem: true,
+    },
+
+    {
+      text: `It’s important that you know how to get the best from your Deluxe Numerology Report. We have spent years compiling the best interpretations from the lore and research of Numerology throughout the world. But it’s important to know that a highly personalized report cannot tell you exactly the same thing that you might learn from a professional Numerologist sitting on the other side of the table. `,
+      style: "small",
+    },
+    {
+      text: ` `,
+      style: "small",
+    },
+    {
+      text: `Nevertheless, we guarantee that you will not be able to find a more thorough or revealing report anywhere. In fact, we don’t believe that personal readings with many Numerologists will match the scope and value of the report you are about to read. `,
+      style: "small",
+    },
+    {
+      text: ` `,
+      style: "small",
+    },
+
+    {
+      text: `From time to time, you may need to “connect the dots” in order to arrive at the exact meaning of statements in this report that are relevant to you at this time. Doing so will, however, sharpen your intuition, expand your self-knowledge, and reveal plenty of pertinent information that you won’t find anywhere else. `,
+      style: "small",
+    },
+
+    {
       text: "Birth Day Number",
       style: "header",
       pageBreak: "before",
@@ -264,7 +410,7 @@ const buildPdfContent = async () => {
       style: `subheader`,
     },
     {
-      text: mainNumber['num' + nummain],
+      text: mainNumber["num" + nummain],
       style: "small",
     },
     {
@@ -699,6 +845,136 @@ const buildPdfContent = async () => {
       style: `small`,
     },
 
+    {
+      text: `Final Note`,
+      stle: `header`,
+      pageBreak: "before",
+      tocItem: true,
+    },
+    {
+      text: "“What we observe is not nature herself, but nature exposed to our method of questioning.” Werner Heisenberg ",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "All systems such as Numerology, Astrology, Tarot, I-Ching and other alternative ways of looking at what’s going on in our world use a different method of questioning than those we are generally familiar with – a method that stretches beyond the measurements and chemical elements of objective phenomena that are considered “scientific” or “practical.” Hopefully, these methods, because they attempt to penetrate the possible meanings of emerging and existing patterns, can give us more individually meaningful answers to the questions we ask. ",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "Scientists and philosophers have been working on the same concepts for a very long time, and many of them spent their time seeking understanding of underlying structures of our individual and shared worlds. With this quest for understanding comes an increasing awareness of the importance of basic or archetypal patterns - this interest is spread across many disciplines",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "Rupert Sheldrake is famous for his theory of ‘Morphogenic Fields”, that lie behind behavioral patterns in all kingdoms, while the mathematician Mandelbrot discusses how fractal geometry “imitates” basic forms in the natural world. Gregory Bateson has explored the “pattern that connects” both in nature as it is and in evolutionary theory. Ilya Prigogine promotes a theory of “dissipative structures” to explain how order emerges from chaos. And of course, Carl Jung’s theories about Archetypes and the Collective Unconscious study how consciousness is organized around these all important patterns. Let’s not forget how Fibonacci’s golden mean has been seen over and over again to be a basic pattern around which nature is organized.",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "Numbers, as we use them, are easy ways to help us organize and understand these patterns of emergence and activity that exist in ourselves and the world. Opening the mind to the possibilities Numerology offers can expand our consciousness and help us to look into the underlying patterns in our subjective and objective experience. It can also teach us how to work with these patterns to our advantage.",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "What you have read in these pages is not an exposition of Numerological theory, however. It is a practical and personal method of reorganizing yourself around a few simple yet profound ideas. ",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "One of these ideas is that it is possible to change your circumstances (and your future) by letting go of self-sabotaging habits of thinking that cause you to interact with the world in limiting and unproductive ways.",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "Another is that it’s possible to personally experience non-ordinary dimensions of a larger reality, and bring the gifts of this kind of experience into your daily life without having to separate yourself from everyday affairs.",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "You may have also seen that meditation and living in a stress reduced, happier state of mind does not require a special place, supplies or teacher once you learn to pay attention to what you are feeling. ",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "A most important point that is made throughout is that it is not hard to activate your Energetic or Inner Guidance System, which automatically takes you in the direction you want to go, once you’ve decided what kind of destination you’d like to arrive at.",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "These are but a few of the points that are made in the report, but many others will be discovered over time, which is the best way for you to learn what they mean for you. Numbers are simple and universal symbols, and should not be burdened by dogmas or belief systems that separate us from one another. There is enough “ideological imperialism” in the world, and it never ends up being helpful when it comes to freedom and love.",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "We have spoken quite a bit about the Laws of Attraction in these pages, but that is not a doctrinal absolute either. They’ve been discussed to illustrate a basic fact about Numerology – the numbers along the Life Path represent what you attract to yourself, while those derived from your name are about the choices you can make. Rather than bore you with statistical proofs or metaphysical theories, we’ve managed to boil it down to one simple fact of life; you get what you give.",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "The quality of the choices you make determines the quality of the results you get, not the amount of effort you put into getting those results.",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "Numerology can be easy, and even fun, as long as you don’t start mistaking the numbers for judges, juries and executioners. They describe patterns, cycles and principles in nature that you can utilize as tools for improving your quality of life. How well Numerology works for you is entirely dependent on your willingness to divorce yourself from the cultural patterns and personal habits through which you are limiting your own potential and possibilities, as well as your willingness to understand that you are the product of your previous choices, and your future will be as well.",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "One last note – it’s almost certain that there is a lot of Numerology that you’ve never seen before included in this report, but you need to know that it barely scratches the surface of the full spectrum of methods and techniques; we have only included those considered to be the most practical methods that you can USE so you can make Numerology work for you.",
+      style: "small",
+    },
+    {
+      text: " ",
+      style: "small",
+    },
+    {
+      text: "Your Numerology Report is not a complete view of this art, it is only an invitation to enjoy it on a personal level that cannot be gained from a book. Our goal is to show you, in a clear and precise way, how you can apply Numerology for your own benefit and for the benefit of others.",
+      style: "small",
+    },
     // await buildHeartDesireNumbersOfName("thisbuildheartdesirewwou".split("")),
   ];
 };
@@ -713,6 +989,7 @@ const bootstrap = async () => {
         fontSize: 25,
         bold: true,
         lineHeight: 1.5,
+        color: 'blue'
       },
       subheader: {
         fontSize: 20,

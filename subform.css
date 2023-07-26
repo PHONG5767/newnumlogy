@@ -423,6 +423,7 @@ h2 {
     visibility: inherit;
     transition: all 10s ease-in-out;
     display:inline-block;
+    opacity: 0.3;
 }
 
 .containerRightChild {
@@ -431,6 +432,7 @@ h2 {
     transition: all 10s ease-in-out;
     width: 0px;
     display:inline-block;
+    opacity: 0.3;
 }
 
 #commentary__name {

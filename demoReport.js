@@ -15,7 +15,8 @@ function updateProgressBar() {
 }
 
 function loadAudioFile() {
-  audioPlayer.getElementsByTagName('source')[0].src = audioFiles[currentAudioIndex];
+  audioPlayer.getElementsByTagName("source")[0].src =
+    audioFiles[currentAudioIndex];
   audioPlayer.load();
 }
 
@@ -37,13 +38,13 @@ progressContainer.addEventListener("click", function (e) {
   audioPlayer.currentTime = seekTime;
 });
 
-// audioPlayer.addEventListener("timeupdate", updateProgressBar);
+audioPlayer.addEventListener("timeupdate", updateProgressBar);
 audioPlayer.addEventListener("ended", nextAudioFile);
 
 // Tải và phát file âm thanh đầu tiên khi trang tải hoàn tất
 document.addEventListener("DOMContentLoaded", function () {
   loadAudioFile();
-  // audioPlayer.play();
+  audioPlayer.play();
   creatInfoText(currentAudioIndex);
 });
 
@@ -77,4 +78,48 @@ function showNummain() {
 setTimeout(showNummain, 5000);
 
 // Phát âm thanh nền liên tục
-// backgroundAudio.play();
+backgroundAudio.play();
+
+function createLifePathContent() {
+  document.getElementById(
+    "titleLifePath"
+  ).innerHTML = `<h2>1. Your Life Path Number: ${nummain}</h2>`;
+  document.getElementById("decripttionLifePath").innerHTML =
+    mainNumber["num" + nummain];
+  document.getElementById(
+    "titleExpression"
+  ).innerHTML = `<h2>2. Your Expression Number: ${caculateSum(
+    ExpressionNumber()
+  )}</h2>`;
+  document.getElementById("decripttionExpression").innerHTML =
+    ExpressionnumberName["num" + caculateSum(ExpressionNumber())];
+  document.getElementById(
+    "titleHeartDesire"
+  ).innerHTML = `<h2>3. Your Hearts Desire Number: ${caculateSum(
+    HeartsDesireNumber(lowercaseCharacters)
+  )}</h2>`;
+  document.getElementById("decripttionHeartDesire").innerHTML =
+    HeartDesireNumberContent[
+      "num" + caculateSum(HeartsDesireNumber(lowercaseCharacters))
+    ];
+}
+
+function createPeriodCycle() {
+  document.getElementById(
+    "titlePeriod"
+  ).innerHTML = `<h2>4: The Period Cycle Numbers</h2>`;
+  document.getElementById("numPeriod1").innerHTML = numday;
+  document.getElementById("numPeriod2").innerHTML = nummonth;
+  document.getElementById("numPeriod3").innerHTML = numyear;
+}
+
+
+function createBirthday() {
+  document.getElementById('titleBirthday').innerHTML = `<h2>5: Your Birth Day Number: ${day}</h2>`;
+}
+function bootstrap() {
+  createLifePathContent();
+  createPeriodCycle();
+  createBirthday();
+}
+bootstrap();

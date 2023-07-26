@@ -9,35 +9,206 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
     <link rel="stylesheet" href="demoReport.css" />
+    <link rel="stylesheet" href="footer.css" />
   </head>
   <body>
-    <div id="container-canvas">
-      <div id="name-Dm" class="infoIntro"></div>
-      <div id="birthday-Dm" class="infoIntro"></div>
-      <div id="decripttion" class="infoIntro"></div>
-      <div id="container__info">
-        <div id="border__bg"></div>
-        <div id="border__bg-child"></div>
-        <div id="backgroungCanvas"></div>
-        <!-- <canvas id="progressCanvas" width="450" height="450"></canvas> -->
-        <div id="numMain"></div>
+
+      <div id="container-canvas">
+        <div id="name-Dm" class="infoIntro"></div>
+        <div id="birthday-Dm" class="infoIntro"></div>
+        <div id="decripttion" class="infoIntro"></div>
+        <div id="container__info">
+          <div id="border__bg"></div>
+          <div id="border__bg-child"></div>
+          <div id="backgroungCanvas"></div>
+          <div id="numMain"></div>
+        </div>
       </div>
-    </div>
-
-    <audio id="backgroundAudio" loop>
-        <source src="./audio/background-sound-low-gain.mp3" type="audio/mpeg">
+      <audio id="backgroundAudio" loop>
+        <source src="./audio/background-sound-low-gain.mp3" type="audio/mpeg" />
       </audio>
-
-    <div id="audioPlayerContainer">
+      <div id="audioPlayerContainer">
         <audio id="audioPlayer" controls>
-          <source src="" type="audio/mpeg">
+          <source src="" type="audio/mpeg" />
         </audio>
         <div id="progressContainer">
           <div id="progressBar"></div>
         </div>
       </div>
+      <div class="container__content">
+        <div id="titleLifePath"></div>
+        <div id="decripttionLifePath" class="decripttion"></div>
+      </div>
+      <div class="container__content">
+        <div id="titleExpression"></div>
+        <div id="decripttionExpression" class="decripttion"></div>
+      </div>
+      <div class="container__content">
+        <div id="titleHeartDesire"></div>
+        <div id="decripttionHeartDesire" class="decripttion"></div>
+      </div>
+      <div id="containerPeriod" class="container__content">
+        <div id="titlePeriod"></div>
+        <div id="contentPeriod">
+          <div id="contentPeriod1" class="contentPeriodImg">
+            <img src="/img/lifecircle1.png" alt="" />
+            <div id="numPeriod1" class="numPeriod"></div>
+            <div id="agePeriod1" class="agePeriod">
+              <span style="font-size: 25px; font-weight: 900">Cycle 1: </span
+              ><br />Planting
+            </div>
+          </div>
+          <div id="contentPeriod2" class="contentPeriodImg">
+            <img src="/img/lifecircle2.png" alt="" />
+            <div id="numPeriod2" class="numPeriod"></div>
+            <div id="agePeriod2" class="agePeriod">
+              <span style="font-size: 25px; font-weight: 900">Cycle 2: </span
+              ><br />Growing
+            </div>
+          </div>
+          <div id="contentPeriod3" class="contentPeriodImg">
+            <img src="/img/lifecircle3.png" alt="" />
+            <div id="numPeriod3" class="numPeriod"></div>
+            <div id="agePeriod3" class="agePeriod">
+              <span style="font-size: 25px; font-weight: 900">Cycle 3: </span
+              ><br />Harvesting
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container__content">
+        <div id="titleBirthday"></div>
+        <p>
+          This number is based on your date of birth and represents your
+          personality and abilities. Individuals with this number usually enjoy
+          freedom, adventure, and change. They are curious and enthusiastic
+          about new experiences...
+        </p>
+        <a href=""
+          >You need to upgrade to VIP to request detailed interpretations!</a
+        >
+      </div>
+      <div class="container__content">
+        <div id="titleChallengeNumbers"><h2>6: Challenge Numbers</h2></div>
+        <p>
+          These are the numbers that indicate hidden challenges and difficulties
+          in your life. They represent aspects of yourself that you need to
+          face, overcome, or develop to reach your full potential...
+        </p>
+        <a href=""
+          >You need to upgrade to VIP to request detailed interpretations!</a
+        >
+      </div>
+      <div class="container__content">
+        <div id="titleExpressionNumber"><h2>7: Expression Number</h2></div>
+        <p>
+          This number is related to how you express yourself and your
+          communication skills. It shows your talents and abilities in
+          expressing ideas, thoughts, and emotions. It also reflects your
+          personality and principles...
+        </p>
+        <a href=""
+          >You need to upgrade to VIP to request detailed interpretations!</a
+        >
+      </div>
+      <div class="container__content">
+        <div id="titleHeartDesireNumber"><h2>8: Heart's Desire Number</h2></div>
+        <p>
+          This number is connected to your true desires in life. It reveals your
+          dreams, passions, and deep-seated goals. The Heart's Desire Number
+          helps you understand what truly makes you happy and leads you to
+          success...
+        </p>
+        <a href=""
+          >You need to upgrade to VIP to request detailed interpretations!</a
+        >
+      </div>
+      <div class="container__content">
+        <div id="titlePersonalityNumber"><h2>9: Personality Number</h2></div>
+        <p>
+          This number represents your personal traits, behavior, and influence
+          on others. It shows how you present yourself to the outside world and
+          how you interact with the environment around you...
+        </p>
+        <a href=""
+          >You need to upgrade to VIP to request detailed interpretations!</a
+        >
+      </div>
+      <div class="container__content">
+        <div id="titleSubconscious"><h2>10: Subconscious Self Number</h2></div>
+        <p>
+          This number represents the hidden subconscious and underlying factors
+          in your soul. It helps you understand the hidden influences that you
+          may not always be aware of and how they affect your decisions and
+          behaviors...
+        </p>
+        <a href=""
+          >You need to upgrade to VIP to request detailed interpretations!</a
+        >
+      </div>
+      <div class="container__content">
+        <div id="titleBalanceNumber"><h2>11: Balance Number</h2></div>
+        <p>
+          This number reflects the relationship between the various aspects of
+          your life and how you balance them. It helps you realize how to
+          harmonize the different aspects of yourself and achieve balance in
+          life...
+        </p>
+        <a href=""
+          >You need to upgrade to VIP to request detailed interpretations!</a
+        >
+      </div>
+      <div id="containerFooter">
+        <div id="footer">
+          <div id="footer__categories">
+            <h3>CATEGORIES</h3>
+            <ul class="footer__categories--ul footerhover">
+              <li>Homepage</li>
+              <li>About Us</li>
+              <li>Reviews & Testimonials</li>
+              <li>Become A Numerologist VIP</li>
+              <li>Products</li>
+              <li>Numerology</li>
+              <li>Astrology</li>
+              <li>Divination</li>
+            </ul>
+          </div>
+          <div id="footer__policy">
+            <h3>COMPANY POLICY</h3>
+            <ul class="footer__policy--ul footerhover">
+              <li>Contact Us</li>
+              <li>Return and Refund Policy</li>
+              <li>Legal</li>
+              <li>Terms of Use</li>
+              <li>Privacy Policy</li>
+              <li>Testimonials and Results Disclaimer</li>
+              <li>Earnings Disclaimer</li>
+              <li>Affiliate Information</li>
+              <li>Affiliate Disclosure</li>
+              <li>Write For Us</li>
+            </ul>
+          </div>
+          <div id="footer__map">
+            <h3>CONTACT US</h3>
+            <div id="footer__map--fb">
+              <div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.6115379917724!2d-118.25855852468052!3d34.07947107314664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c71c31867ec5%3A0xe968e2a806f928a9!2s1461%20N%2C%201461%20Echo%20Park%20Ave%2C%20Los%20Angeles%2C%20CA%2090026%2C%20Hoa%20K%E1%BB%B3!5e0!3m2!1svi!2s!4v1689320032963!5m2!1svi!2s"
+                  width="300"
+                  height="200"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="content.js"></script>
     <script src="calculate.js"></script>
     <script src="demoReport.js"></script>
-
+    <script src="pdf-content.js"></script>
   </body>
 </html>

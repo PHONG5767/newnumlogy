@@ -7,7 +7,6 @@ body {
     background-attachment: fixed;
     height: 100vh;
     background-size: cover;
-
 }
 
 
@@ -31,7 +30,7 @@ body {
     animation: opacity 5s linear 1;
 }
 
-#decripttion{
+#decripttion {
     font-weight: 900;
     color: white;
     font-size: 30px !important;
@@ -39,13 +38,15 @@ body {
 
 @keyframes opacity {
     0% {
-        opacity:0
+        opacity: 0
     }
+
     100% {
-        opacity:1
+        opacity: 1
     }
 }
-p {
+
+.infoIntro>p {
     color: #f7d51a;
 
 }
@@ -56,6 +57,38 @@ p>span {
 
 #container-canvas {
     width: 500px;
+}
+
+.container__content {
+    width: 60%;
+    background-color: #d3c2cd;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px solid white;
+}
+
+h2 {
+    font-size: 30px;
+    color: #af3589;
+}
+
+.decripttion {
+    font-size: 20px;
+    line-height: 1.5em;
+    color: black !important;
+}
+
+.container__content>p {
+    font-size: 20px;
+    line-height: 1.5em;
+    color: rgb(80, 70, 70);
+}
+
+.container__content>a {
+    color: #dc3545 !important;
+    font-size: 15px;
+    text-decoration: underline;
 }
 
 #numMain {
@@ -69,16 +102,6 @@ p>span {
     animation: opacity 5s linear 1;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
 }
-
-/* #progressCanvas{
-    position: absolute;
-    top: 300px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 450;
-    height: 450;
-    image-rendering:  crisp-edges;
-} */
 
 #border__bg {
     position: absolute;
@@ -157,19 +180,82 @@ p>span {
 
 @keyframes spin-transformed {
     0% {
-      -webkit-transform: translate(-50%, -50%) rotateY(180deg) rotateX(180deg);
-      -ms-transform: translate(-50%, -50%) rotateY(180deg) rotateX(180deg);
-      transform: translate(-50%, -50%) rotateY(180deg) rotateX(180deg);
+        -webkit-transform: translate(-50%, -50%) rotateY(180deg) rotateX(180deg);
+        -ms-transform: translate(-50%, -50%) rotateY(180deg) rotateX(180deg);
+        transform: translate(-50%, -50%) rotateY(180deg) rotateX(180deg);
     }
+
     50% {
-      -webkit-transform: translate(-50%, -50%) rotateY(0deg) rotateX(0deg);
-      -ms-transform: translate(-50%, -50%) rotateY(0deg) rotateX(0deg);
-      transform: translate(-50%, -50%) rotateY(0deg) rotateX(0deg);
+        -webkit-transform: translate(-50%, -50%) rotateY(0deg) rotateX(0deg);
+        -ms-transform: translate(-50%, -50%) rotateY(0deg) rotateX(0deg);
+        transform: translate(-50%, -50%) rotateY(0deg) rotateX(0deg);
     }
+
     100% {
-      -webkit-transform: translate(-50%, -50%) rotateY(-180deg) rotateX(-180deg);
-      -ms-transform: translate(-50%, -50%) rotateY(-180deg) rotateX(-180deg);
-      transform: translate(-50%, -50%) rotateY(-180deg) rotateX(-180deg);
+        -webkit-transform: translate(-50%, -50%) rotateY(-180deg) rotateX(-180deg);
+        -ms-transform: translate(-50%, -50%) rotateY(-180deg) rotateX(-180deg);
+        transform: translate(-50%, -50%) rotateY(-180deg) rotateX(-180deg);
     }
-  }
-  
+}
+
+#containerPeriod {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+#contentPeriod {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.contentPeriodImg {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.contentPeriodImg>img {
+    object-fit: contain;
+    width: 60%;
+
+}
+
+.numPeriod {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#contentPeriod1 {
+    color: red;
+}
+
+#contentPeriod2 {
+    color: #7b3dd9;
+}
+
+#contentPeriod3 {
+    color: #00b59a;
+}
+
+.agePeriod {
+    position: absolute;
+    bottom: -50px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+#containerFooter{
+    width: 100%;
+    margin-top: 50px;
+}

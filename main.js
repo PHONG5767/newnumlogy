@@ -33,13 +33,12 @@ var numerologyModule = (function () {
         var name = formData["Name"];
         let numMain = calculateNumerologyOfBirthDay(birthday);
         var numDay = sumNumerology(birthday.getDate());
-        var numMonth = sumNumerology(birthday.getMonth()+1);
+        var numMonth = sumNumerology(birthday.getMonth() + 1);
         var numYear = sumNumerology(birthday.getFullYear());
         saveLocal(birthday, name, numMain, numDay, numMonth, numYear);
         window.location.href = "sendForm.html";
       });
   };
-
 
   function saveLocal(birthday, name, numMain, numDay, numMonth, numYear) {
     localStorage.setItem("listbirthday", JSON.stringify(birthday));
@@ -57,4 +56,15 @@ var numerologyModule = (function () {
 
 numerologyModule();
 
+let moveToFormButton = document.getElementById("moveToFormButton");
+let formMove = document.getElementById("form");
 
+moveToFormButton.addEventListener('click', function() {
+  const formRect = formMove.getBoundingClientRect();
+  const yOffset = formRect.top + formRect.height / 2 - window.innerHeight / 2;
+
+  window.scrollTo({
+    top: yOffset,
+    behavior: 'smooth'
+  });
+});

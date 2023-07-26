@@ -1509,3 +1509,210 @@ const BalanceNumberContent = {
   <br><br>
   Balance is key here: you need to not only be able to empathize with people but also meet them at their point of distress. Recognize your connection to that person, as you are connected to all living things, in this Universe. The enormity of that thought alone should have enough of a humbling effect to elicit more thankfulness for your many blessings and encourage less arrogance over them. It's not just about knowing how someone feels. It's about caring about what you feel going on in their head.</p>`,
 };
+
+
+
+const mainNumber = {
+  num1:`
+Strong and Leadership Personality: Individuals with the core number 1 often display strength, decisiveness, and the courage to face challenges. They have a leadership spirit and enjoy taking on leading roles in various situations.
+<br><br>
+Independence and Persistence: The number 1 represents independence and determination. People with this core number believe in their own abilities and are not afraid to confront difficulties. They can persevere in pursuing their goals and are not easily deterred by others' opinions.
+<br><br>
+Desire for Success: Core Number 1 signifies a strong desire for success and a high level of focus on their goals. They are goal-oriented and have a clear sense of what they want, which helps them progress towards success in life.
+<br><br>
+Creativity and Pioneer Spirit: Those with the core number 1 often possess a creative mindset and are pioneers in their passionate fields. They enjoy finding new solutions and are unafraid to experiment with fresh ideas.
+<br><br>
+Challenges and Limitations: Despite their abilities and potential, individuals with the core number 1 also face some limitations. They can become overly arrogant, selfish, and may not be open to considering others' opinions. This could lead to conflicts in their social relationships.
+<br><br>
+As a final piece of advice, if you have the core number 1, listen to others' opinions and learn to work effectively in a team. Openness and flexibility will help you develop and achieve sustainable success in life. Make the most of your strength and leadership abilities to steer your life towards worthy goals!
+  `,
+  num2:` 
+  
+  Gentle and Introverted Personality: Individuals with the core number 2 often have a compassionate, friendly nature, and they are deeply concerned about others' emotions. They possess the ability to listen and are dedicated to their relationships.
+<br><br>
+  Sensitivity and Depth: Number 2 signifies sensitivity and the ability to understand others' thoughts and feelings. They are compassionate and often dedicated to helping others.
+  <br><br>
+  Cooperation and Empathy: Those with this core number excel in teamwork and display high levels of empathy. They enjoy working alongside others and have a knack for resolving conflicts skillfully.
+  <br><br>
+  Desire for Peace and Stability: Core Number 2 represents a desire for peace and stability in life. They avoid conflicts and prefer a serene and stable environment.
+  <br><br>
+  Challenges and Limitations: Despite their warm and empathetic nature, individuals with the core number 2 also face some challenges. They can become overly shy and easily influenced by others' opinions, which may lead to indecisiveness.
+  <br><br>
+  As a final piece of advice, if you have the core number 2, cherish your gentle nature and exceptional teamwork skills. However, focus on developing self-confidence and decisiveness to overcome challenges and achieve your goals in life. Use your compassion to create contentment and harmony in your life and the lives of those around you! `,
+  num3:`
+  Creative and Expressive: Individuals with the core number 3 are highly creative and have a natural flair for self-expression. They excel in various forms of art, communication, and enjoy sharing their ideas and emotions with others.
+<br><br>
+Optimistic and Enthusiastic: Number 3 signifies an optimistic outlook on life. People with this core number often radiate enthusiasm and positivity, which makes them charming and likable in social settings.
+<br><br>
+Sociable and Charming: Those with the core number 3 possess excellent social skills and are charming conversationalists. They have a gift for making people feel comfortable and entertained in their presence.
+<br><br>
+Versatile and Adaptable: Core Number 3 individuals are versatile and adaptable, allowing them to navigate through different situations with ease. They embrace change and are open to new experiences.
+<br><br>
+Communication and Expression: Communication is a strong suit for those with the core number 3. They are great storytellers, performers, and have a natural ability to capture the attention of others with their words.
+<br><br>
+Thirst for Knowledge: People with the core number 3 have a curious and inquisitive nature. They enjoy learning and exploring various subjects, making them well-rounded and knowledgeable.
+<br><br>
+Challenges and Limitations: Despite their creativity and charisma, individuals with the core number 3 may sometimes struggle with scattered energies and difficulty in staying focused. They may also experience mood swings and emotional sensitivity.
+<br><br>
+As a final piece of advice, if you have the core number 3, embrace your creativity and share your talents with the world. Stay positive, open-minded, and strive to channel your energies effectively to achieve your goals. Remember to maintain focus and avoid being overwhelmed by your emotions. Utilize your gift of communication to inspire and uplift those around you!
+  `,
+  num4:`
+  Practical and Grounded: Individuals with the core number 4 have a practical approach to life. They are grounded, realistic, and prefer tangible results over fanciful ideas.
+<br><br>
+Hardworking and Determined: Number 4 signifies a strong work ethic and determination. Those with this core number are persistent and willing to put in the effort required to achieve their goals.
+<br><br>
+Dependable and Trustworthy: Core Number 4 individuals are known for their reliability and trustworthiness. They are dependable and can be counted on to fulfill their commitments.
+<br><br>
+Organized and Methodical: People with the core number 4 are naturally organized and prefer structure in their lives. They excel in planning and managing tasks efficiently.
+<br><br>
+Patient and Enduring: Core number 4 symbolizes patience and endurance. Those with this core number can handle challenging situations with composure and perseverance.
+<br><br>
+Strong Sense of Responsibility: Individuals with the core number 4 take their responsibilities seriously. They are conscientious and take pride in fulfilling their obligations.
+<br><br>
+Practical Problem-Solvers: Number 4 represents practicality and resourcefulness. People with this core number excel in finding straightforward solutions to problems.
+<br><br>
+Challenges and Limitations: Despite their stability, those with the core number 4 may sometimes struggle with being overly rigid or resistant to change. They may find it difficult to adapt to new situations or embrace spontaneity.
+<br><br>
+As a final piece of advice, if you have the core number 4, continue to embrace your practical and hardworking nature. Use your strong organizational skills to bring structure and efficiency to your endeavors. While being grounded is essential, try to remain open to change and new experiences. Balance your reliability with flexibility, and remember to take time for yourself to recharge and maintain a healthy work-life balance.
+  `,
+  num5:`
+  Freedom and Independence: Individuals with the core number 5 value their freedom and independence. They resist being tied down by restrictions and seek opportunities to explore the world on their terms.
+<br><br>
+Adventurous and Energetic: Number 5 signifies a spirit of adventure and high energy levels. Those with this core number are often drawn to exciting experiences and love to try new things.
+<br><br>
+Versatile and Adaptable: Core Number 5 individuals are highly versatile and adapt quickly to changing circumstances. They can handle diverse situations with ease.
+<br><br>
+Curious and Open-Minded: People with the core number 5 have a curious nature and an open mind. They enjoy learning and discovering new knowledge.
+<br><br>
+Charming and Sociable: Core number 5 represents a charming and sociable personality. Those with this core number have a natural ability to connect with others and make friends easily.
+<br><br>
+Restless and Impulsive: Individuals with the core number 5 may sometimes feel restless and impulsive, seeking constant stimulation and change.
+<br><br>
+Desire for Freedom and Exploration: Number 5 reflects a strong desire for freedom and a longing to explore new horizons. Travel and adventure are often important aspects of their lives.
+<br><br>
+Challenges and Limitations: Despite their adventurous spirit, those with the core number 5 may face challenges with restlessness and a tendency to become easily distracted. They may struggle with commitment and staying focused on long-term goals.
+<br><br>
+As a final piece of advice, if you have the core number 5, embrace your adventurous nature and explore the world with an open mind. Use your adaptability to your advantage and seek experiences that bring you joy and fulfillment. While spontaneity is exciting, remember to find a balance between freedom and responsibility. Channel your dynamic energy into constructive endeavors and focus on nurturing long-term commitments and relationships that align with your values.
+  `,
+  num6:`
+  Compassionate and Nurturing: Individuals with the core number 6 are naturally compassionate and caring. They have a strong desire to help others and often take on nurturing roles in their relationships.
+<br><br>
+Responsible and Protective: Number 6 signifies a deep sense of responsibility and a protective nature. Those with this core number take care of their loved ones and are dedicated to providing support and stability.
+<br><br>
+Family-Oriented: Core Number 6 individuals prioritize family and home life. They find fulfillment in creating a harmonious and loving environment for their loved ones.
+<br><br>
+Service-Oriented: People with the core number 6 have a service-oriented approach to life. They are often drawn to professions and activities that involve helping others.
+<br><br>
+Diplomatic and Harmonious: Core number 6 represents diplomacy and the ability to bring harmony to challenging situations. Those with this core number are skilled at resolving conflicts and maintaining peace.
+<br><br>
+Artistic and Creative: Individuals with the core number 6 often have artistic and creative talents. They may express themselves through various forms of art, music, or other creative outlets.
+<br><br>
+Desire for Balance and Stability: Number 6 reflects a strong desire for balance and stability in life. Those with this core number strive to create a sense of equilibrium in their personal and professional relationships.
+<br><br>
+Challenges and Limitations: Despite their caring nature, those with the core number 6 may sometimes struggle with being overly involved in the lives of others, leading to neglecting their own needs. They may also face challenges in setting boundaries.
+<br><br>
+As a final piece of advice, if you have the core number 6, embrace your compassionate and nurturing qualities. Use your diplomatic skills to foster harmonious relationships and create a loving home environment. Remember to also take care of yourself and establish healthy boundaries to avoid feeling overwhelmed by the needs of others. Your ability to provide support and care will make a positive impact on the lives of those around you.
+  `,
+  num7:`
+  Introspective and Analytical: Individuals with the core number 7 are introspective and enjoy delving into the deeper aspects of life. They have a natural inclination for analysis and contemplation.
+<br><br>
+Intellectual and Philosophical: Number 7 signifies a strong intellectual capacity and a philosophical nature. Those with this core number enjoy seeking knowledge and understanding the mysteries of existence.
+<br><br>
+Spiritual and Mystical: Core Number 7 individuals often have a spiritual and mystical side. They may be drawn to esoteric or metaphysical subjects and have a keen interest in spirituality.
+<br><br>
+Reserved and Private: People with the core number 7 may appear reserved and private. They value their alone time and introspective moments.
+<br><br>
+Perfectionist and Detail-Oriented: Core number 7 represents a perfectionist nature and attention to detail. Those with this core number may be meticulous in their work and pursuits.
+<br><br>
+Seekers of Truth: Individuals with the core number 7 are seekers of truth and meaning. They are on a continuous quest for deeper understanding and insights.
+<br><br>
+Desire for Solitude and Reflection: Number 7 reflects a desire for solitude and reflection. Those with this core number may often withdraw from social interactions to contemplate and gain clarity.
+<br><br>
+Challenges and Limitations: Despite their intellect and depth, those with the core number 7 may sometimes struggle with overthinking or becoming overly critical of themselves and others. They may also experience challenges in expressing their emotions.
+<br><br>
+As a final piece of advice, if you have the core number 7, embrace your intellectual and introspective nature. Use your analytical skills to gain insights and wisdom. Embrace your spiritual side and continue your quest for knowledge and understanding. While it's essential to spend time in introspection, remember to find a balance between solitude and engaging with others. Your unique perspective and thirst for truth can contribute greatly to personal growth and the world around you.
+  `,
+  num8:`
+  Ambitious and Goal-Oriented: Individuals with the core number 8 are highly ambitious and driven to achieve their goals. They have a clear vision for success and are determined to make it a reality.
+
+Strong Leadership Skills: Number 8 signifies strong leadership skills and the ability to take charge of situations. Those with this core number are natural decision-makers and can handle responsibility well.
+
+Business-Minded: Core Number 8 individuals are often business-minded and have a talent for financial matters. They may be drawn to entrepreneurship and are skilled at managing finances.
+
+Confident and Assertive: People with the core number 8 exude confidence and assertiveness. They are not afraid to take risks and are willing to step up to challenges.
+
+Material Success and Abundance: Core number 8 represents material success and abundance. Those with this core number have the potential to achieve financial prosperity and enjoy the rewards of their hard work.
+
+Determined and Resilient: Individuals with the core number 8 are determined and resilient. They can bounce back from setbacks and continue striving for success.
+
+Balanced Approach: Number 8 reflects a balanced approach to life, where individuals can blend material and spiritual aspects harmoniously.
+
+Challenges and Limitations: Despite their ambition and success-oriented nature, those with the core number 8 may sometimes struggle with a relentless pursuit of wealth, leading to neglecting personal relationships and well-being. They may also face challenges in finding true fulfillment beyond material achievements.
+
+As a final piece of advice, if you have the core number 8, embrace your ambition and leadership qualities. Utilize your business acumen and financial skills to create prosperity for yourself and others. However, remember to strike a balance between pursuing success and maintaining meaningful connections with loved ones. Seek fulfillment not just in material achievements but also in personal growth and the contributions you make to the world. Use your confidence and determination to inspire and uplift those around you.
+  `,
+  num9:`
+  Compassionate and Empathetic: Individuals with the core number 9 are naturally compassionate and empathetic. They have a strong desire to help others and often feel deeply connected to the well-being of humanity.
+<br><br>
+Humanitarian and Philanthropic: Number 9 signifies a humanitarian spirit and a desire to make a positive impact on the world. Those with this core number are drawn to philanthropic endeavors and may engage in charitable work.
+<br><br>
+Generous and Selfless: Core Number 9 individuals are generous and selfless in their actions. They willingly give their time and resources to support those in need.
+<br><br>
+Idealistic and Visionary: People with the core number 9 often have a strong sense of idealism and a vision for a better world. They are inspired by noble causes and seek to create positive change.
+<br><br>
+Intuitive and Insightful: Core number 9 represents intuition and deep insights. Those with this core number may have a heightened sense of perception and can understand complex situations.
+<br><br>
+Endings and Transformation: Number 9 is also associated with endings and transformation. Those with this core number may experience significant life changes and personal growth.
+<br><br>
+Desire for Unity and Harmony: Core Number 9 individuals have a strong desire for unity and harmony among people. They believe in the power of love and compassion to bring people together.
+<br><br>
+Challenges and Limitations: Despite their altruistic nature, those with the core number 9 may sometimes struggle with feeling overwhelmed by the suffering of others. They may also face challenges in letting go of the past and moving forward.
+<br><br>
+As a final piece of advice, if you have the core number 9, embrace your compassionate and humanitarian nature. Use your selflessness to make a positive impact on the lives of others and the world around you. However, remember to take care of yourself and set healthy boundaries to avoid burnout. Trust your intuition and continue to seek personal growth and transformation. Your vision and idealism can inspire others to join you in creating a more harmonious and loving world.
+  `,
+  num11:`
+  Intuitive and Insightful: Individuals with the core number 11 possess strong intuition and insight. They have a deep understanding of the world and often have a sense of knowing beyond logical reasoning.
+<br><br>
+Spiritually Awakened: Number 11 signifies spiritual awakening and enlightenment. Those with this core number may have a profound connection to the spiritual realm and seek to understand the deeper meaning of life.
+<br><br>
+Idealistic and Visionary: Core Number 11 individuals are idealistic and visionary. They have big dreams and may feel a sense of purpose to bring positive change to the world.
+<br><br>
+Highly Sensitive: People with the core number 11 are highly sensitive to energy and emotions. They can easily pick up on the feelings of others and may be empathetic to the struggles of those around them.
+<br><br>
+Inspirational Leaders: Core number 11 represents inspirational leadership. Those with this core number have the potential to inspire and uplift others with their vision and charisma.
+<br><br>
+Challenging Journey: Master Numbers like 11 often come with significant challenges and responsibilities. Those with this core number may experience intense spiritual growth and personal transformation.
+<br><br>
+Spiritual Guides: Number 11 individuals may serve as spiritual guides or mentors to others. They have a natural ability to provide guidance and support to those on their spiritual journey.
+<br><br>
+Self-Discovery and Enlightenment: Core Number 11 individuals are on a continuous path of self-discovery and enlightenment. They may be drawn to spiritual practices and self-improvement.
+<br><br>
+Challenges and Limitations: Despite their spiritual gifts, those with the core number 11 may sometimes feel overwhelmed by their heightened sensitivity. They may also face challenges in fully embracing their spiritual potential.
+<br><br>
+As a final piece of advice, if you have the core number 11, embrace your intuitive and spiritually gifted nature. Trust your inner guidance and follow your unique path. Share your vision and insights with others to inspire positive change. However, remember to take time for self-care and grounding, as your sensitivity may sometimes feel intense. Use your spiritual gifts to bring light and wisdom to the world around you, and continue to explore and grow on your spiritual journey.
+  `,
+  num22:`
+  Master Builder: Individuals with the core number 22 are considered master builders. They have the ability to turn their dreams and visions into tangible realities through practical and strategic means.
+<br><br>
+Visionary and Ambitious: Number 22 signifies a strong sense of vision and ambition. Those with this core number have big dreams and a desire to create lasting and impactful changes in the world.
+<br><br>
+Practical and Methodical: Core Number 22 individuals combine their visionary qualities with practicality and methodical planning. They can devise detailed and effective strategies to achieve their goals.
+<br><br>
+Leadership and Influence: People with the core number 22 often have strong leadership skills and can influence others positively. They have the power to inspire and guide people towards a common purpose.
+<br><br>
+Transcending Boundaries: Core number 22 represents the ability to transcend boundaries and limitations. Those with this core number are not confined by conventional thinking and are open to innovative solutions.
+<br><br>
+Transformation and Success: Number 22 individuals often undergo significant personal transformation and growth. They have the potential for great success and achieving remarkable accomplishments.
+<br><br>
+Serving Humanity: Core Number 22 individuals have a profound desire to serve humanity and make a positive impact on a large scale. They may be drawn to humanitarian efforts and projects.
+<br><br>
+Challenging Path: Master Numbers like 22 come with considerable challenges and responsibilities. Those with this core number may face tests and obstacles on their journey to fulfill their purpose.
+<br><br>
+Harnessing Power and Responsibility: People with the core number 22 must learn to harness their power and accept the responsibility that comes with their abilities. Balancing their visionary nature with practicality is essential.
+<br><br>
+Manifestation and Achievement: Core Number 22 individuals have the unique gift of turning ideas into reality. They can manifest their dreams with determination and perseverance.
+<br><br>
+As a final piece of advice, if you have the core number 22, embrace your role as a master builder and visionary. Trust in your ability to create positive change and impact the lives of many. Remain focused on practicality while keeping your visionary spirit alive. Use your leadership skills to inspire and guide others towards a better future. Remember that with great power comes great responsibility, so always approach your endeavors with integrity and humility. Your potential for success and transformation is vast, so stay committed to your path of serving humanity and making a lasting difference in the world.
+  `,
+
+}

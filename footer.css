@@ -19,12 +19,17 @@ ul {
 ul {
     padding-inline-start: 0px;
 }
+h3 {
+    margin-top: 50px;
+}
 
 .footerhover>li:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-
+ul > li {
+    font-weight: 400;
+}
 .footerhover>li {
     padding: 10px 0px 10px 0px;
 }
@@ -45,6 +50,7 @@ ul {
     margin-bottom: 20px;
     justify-content: start !important;
     width: 100%;
+    margin-top: 2em;
 
 }
 

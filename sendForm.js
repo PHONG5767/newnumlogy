@@ -26,6 +26,9 @@ function subformJS() {
   document.getElementById("subformJS").addEventListener("click", () => {
     window.location.href = `/demoReport.html`;
   });
+  document.getElementById('srollBtn').addEventListener("click", () => {
+    window.location.href = `/demoReport.html`;
+  });
 }
 subformJS();
 
