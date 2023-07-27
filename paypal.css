@@ -1,0 +1,76 @@
+#container__payment {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    background-color: #d3c2cd;
+    margin-top: 20px;
+    border-radius: 5px 5px 5px 5px;
+    padding-bottom: 50px;
+}
+
+#titlePayment {
+    width: 100%;
+    background-color: #af3589;
+    margin-bottom: 30px;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 25px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    color: yellow;
+}
+
+#contentPayment {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#demoBook {
+    width: 40%;
+    position: relative;
+}
+#container__paypal {
+    width: 40%;
+}
+#container__paypal:nth-child(2){
+    color: rgb(125, 120, 120);
+}
+#demoBook>img {
+    width: 100%;
+}
+
+#nummainBook {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+}
+
+#nameBook {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+#demoBook:before {
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/pdficonllogo.png');
+    position: absolute;
+    background-size: contain;
+    top: 80%;
+    left: 90%;
+}

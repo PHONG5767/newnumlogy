@@ -845,9 +845,10 @@ const buildPdfContent = async () => {
       style: `small`,
     },
 
+
     {
       text: `Final Note`,
-      stle: `header`,
+      style: `header`,
       pageBreak: "before",
       tocItem: true,
     },

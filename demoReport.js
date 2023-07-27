@@ -117,9 +117,15 @@ function createPeriodCycle() {
 function createBirthday() {
   document.getElementById('titleBirthday').innerHTML = `<h2>5: Your Birth Day Number: ${day}</h2>`;
 }
+
+function createInfoBook() {
+  document.getElementById('nummainBook').innerHTML = nummain;
+  document.getElementById('nameBook').innerHTML = fullname
+}
 function bootstrap() {
   createLifePathContent();
   createPeriodCycle();
   createBirthday();
+  createInfoBook()
 }
 bootstrap();

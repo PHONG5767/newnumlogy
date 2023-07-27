@@ -163,17 +163,17 @@ const accordion = {
   content5: `<p>Career orientation according to numerology is like a compass guiding each person's future. By exploring numerology online, you can discover your strengths and weaknesses, which can help you choose a career that aligns with your true self...</p>`,
 };
 const getlink = {
-  numlink1: "https://numerologist.com/numerology/life-path-number-1/",
-  numlink2: "https://numerologist.com/numerology/life-path-2/",
-  numlink3: "https://numerologist.com/numerology/life-path-3/",
-  numlink4: "https://numerologist.com/numerology/life-path-4/",
-  numlink5: "https://numerologist.com/numerology/life-path-5-personality/",
-  numlink6: "https://numerologist.com/numerology/life-path-6/",
-  numlink7: "https://numerologist.com/numerology/life-path-7/",
-  numlink8: "https://numerologist.com/numerology/life-path-8/",
-  numlink9: "https://numerologist.com/numerology/life-path-9/",
-  numlink11: "https://numerologist.com/numerology/life-path-11/",
-  numlink22: "https://numerologist.com/numerology/life-path-22/",
+  numlink1: "/life-path-1.html",
+  numlink2: "/life-path-2.html",
+  numlink3: "/life-path-3.html",
+  numlink4: "/life-path-4.html",
+  numlink5: "/life-path-5.html",
+  numlink6: "/life-path-6.html",
+  numlink7: "/life-path-7.html",
+  numlink8: "/life-path-8.html",
+  numlink9: "/life-path-9.html",
+  numlink11: "/life-path-11.html",
+  numlink22: "/life-path-22.html",
 };
 const BirthdayNumber = {
   num1: `<p><span>Birth Day Number 1</span>:
