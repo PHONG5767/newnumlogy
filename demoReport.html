@@ -11,10 +11,57 @@
     <link rel="stylesheet" href="demoReport.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="paypal.css" />
-    <link rel="stylesheet" href="demoReportMoblie.css">
+    <link rel="stylesheet" href="demoReportMoblie.css" />
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="header.css" />
   </head>
 
   <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-center navcustom"
+    >
+      <a class="navbar-brand" href="/index.html"
+        ><img src="/img/logo4.png" alt="" class="img-fluid logo-small"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Calculator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div id="container-canvas">
       <div id="name-Dm" class="infoIntro"></div>
       <div id="birthday-Dm" class="infoIntro"></div>
@@ -172,17 +219,31 @@
       >
     </div>
     <div id="container__payment">
-      <div id="titlePayment">To view the full analysis and solutions that the experts at numology.com have researched for your entire set of indicators, please make the payment below. For Only: <span style="text-decoration: line-through;">$25</span> $9</div>
-      <div id="titlePaymentMobile">For Only:&nbsp; <span style="text-decoration: line-through;">$25 </span>&nbsp; >&nbsp; $9</div>
+      <div id="titlePayment">
+        To view the full analysis and solutions that the experts at numology.com
+        have researched for your entire set of indicators, please make the
+        payment below. For Only:
+        <span style="text-decoration: line-through">$25</span> $9
+      </div>
+      <div id="titlePaymentMobile">
+        For Only:&nbsp;
+        <span style="text-decoration: line-through">$25 </span>&nbsp; >&nbsp; $9
+      </div>
       <div id="contentPayment">
         <div id="demoBook">
           <div id="nummainBook"></div>
           <div id="nameBook"></div>
-          <img src="img/NUMEROLOGY-REPORT-pdf-resized.png" alt="">
+          <img src="img/NUMEROLOGY-REPORT-pdf-resized.png" alt="" />
         </div>
         <div id="container__paypal">
           <div id="paypal-button-container"></div>
-          <div><p>After making the payment, you will be able to access your complete numerology report. You can download it or print it out as a book for reading and studying</p></div>
+          <div>
+            <p>
+              After making the payment, you will be able to access your complete
+              numerology report. You can download it or print it out as a book
+              for reading and studying
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -234,6 +295,9 @@
         </div>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script
       src="https://www.paypal.com/sdk/js?client-id=AZUluS8K9tMsc3twk9az-Q5HypGmXG33-g6ShvqGVrrPYmYj0MmZDdivfW3LPPAKuggGbKrlCUpW5PYT&currency=USD"
       data-locale="en_US"

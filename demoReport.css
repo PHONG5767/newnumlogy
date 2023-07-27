@@ -68,6 +68,9 @@ p>span {
     border: 3px solid white;
     box-sizing: border-box;
 }
+.navcustom {
+    width: 100% !important;
+}
 
 h2 {
     font-size: 30px;

@@ -21,7 +21,7 @@ paypal
       return actions.order.capture().then(function (details) {
         alert("Payment successful! Transaction ID: " + details.id);
         console.log(data)
-        window.location.href = `/pdf.html`;
+        window.location.href = `/paymentSuccess.html`;
       });
     },
   })
