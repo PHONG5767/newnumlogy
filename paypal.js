@@ -19,9 +19,10 @@ paypal
     },
     onApprove: function (data, actions) {
       return actions.order.capture().then(function (details) {
-        alert("Payment successful! Transaction ID: " + details.id);
-        console.log(data)
-        window.location.href = `/paymentSuccess.html`;
+        // alert("Payment successful! Transaction ID: " + details.id);
+        // console.log(data.orderID, data.payerID);
+        // console.log(details.id);
+        window.location.href = `/paymentSuccess.html?orderid=${data.orderID}&payerid=${data.payerID}&name=${fullname}&birthday=${stringDate}`;
       });
     },
   })

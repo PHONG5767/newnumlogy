@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>PaymentSuccess Form</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -58,9 +58,14 @@
     <div class="container mt-5">
       <div class="row justify-content-center">
         <div class="col-md-6">
-          <h2 class="mb-4">Leave your email address, and I will send the report to your email</h2>
-          <form id="myFormPayMent"   action="https://formspree.io/f/myyqzrbk"
-          method="POST">
+          <h2 class="mb-4">
+            Leave your email address, and I will send the report to your email
+          </h2>
+          <form
+            id="myFormPayMent"
+            action="https://formspree.io/f/myyqzrbk"
+            method="POST"
+          >
             <div class="form-group">
               <label for="name">Name</label>
               <input type="text" class="form-control" id="name" required />
@@ -79,7 +84,10 @@
               ></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
-            <p>No, Thanks. I don't have an email, I want to view the report online.</p>
+            <p>
+              No, Thanks. I don't have an email, I want to view the report
+              online.
+            </p>
             <button type="button" class="btn btn-primary" onclick="noThanks()">
               No Thanks
             </button>
